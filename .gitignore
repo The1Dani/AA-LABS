@@ -1,0 +1,6 @@
+.cache
+bin
+build
+*.o
+graphs/
+!*/report/graphs/
