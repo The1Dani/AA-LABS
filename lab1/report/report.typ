@@ -516,3 +516,5 @@ void power(mpz_t f[2][2], uint64_t n) {
 
     The Fast Doubling Formula method, being the easiest to execute with a logarithmic time complexity, could be used
     when computing very large numbers of the series. 
+    
+    Github Repository: #link("https://github.com/The1Dani/AA-LABS")
