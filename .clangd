@@ -1,0 +1,3 @@
+# .clangd file
+CompileFlags:
+  Add: [-xc] # Force C language for all files

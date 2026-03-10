@@ -4,3 +4,4 @@ build
 *.o
 graphs/
 !*/report/graphs/
+*.pkl

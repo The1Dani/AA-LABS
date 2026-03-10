@@ -53,7 +53,7 @@ void help() {
     }
 }
 
-fibo_func get_fibo_func(char *method) {
+fibo_func get_sort_func(char *method) {
     for (int i = 0; i < methods_len; i++) {
         if (strcmp(methods[i], method) == 0) {
             return method_funcs[i];
@@ -156,7 +156,7 @@ int main(int argc, char **argv) {
     //     printf("%zu ", inputs[i]);
     // printf("\n");
 
-    fibo = get_fibo_func(argv[1]);
+    fibo = get_sort_func(argv[1]);
 
     if (fibo == NULL) {
         printf("The method could not be found!\n");

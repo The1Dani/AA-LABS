@@ -1,0 +1,10 @@
+{
+  "file_types": {
+    "C": ["h"]
+  },
+  "languages": {
+    "C": {
+      "language_servers": ["clangd", "!sourcekit-lsp"]
+    }
+  }
+}
